@@ -1,0 +1,64 @@
+.link_card {
+  position: relative;
+  max-width: 1000px;
+  background-color: #333333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin: 30px auto;
+  min-height: 80px;
+}
+
+@media (max-width: 1000px) {
+  .link_card {
+    margin: 30px;
+  }
+}
+@media (min-width: 501px) {
+  .max {
+    max-width: 1000px;
+  }
+}
+.arrow {
+  width: 12px;
+}
+.icon {
+  background-color: #3673fc;
+  width: 60px;
+  height: 60px;
+  left: -10px;
+  position: absolute;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 60px;
+}
+.beacon {
+  position: absolute;
+  top: 18px;
+  left: -1px;
+  width: 42px;
+  height: 42px;
+  border-radius: 3px;
+  opacity: 0.85;
+  animation: floating 2s ease infinite, tr 2s ease-out infinite;
+}
+@keyframes floating {
+  0% {
+    opacity: 0.85;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes tr {
+  0% {
+    transform: scaleX(1) scaleY(1);
+  }
+  100% {
+    transform: scaleX(2.5) scaleY(2.5);
+  }
+}

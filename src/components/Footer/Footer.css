@@ -1,0 +1,32 @@
+footer {
+  border-top: 1px solid gray;
+  padding: 10px 0;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+/* footer:hover {
+  color: white;
+} */
+.logo {
+  cursor: pointer;
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.5s ease;
+}
+.logo:hover {
+  color: white;
+}
+
+footer > small {
+  cursor: pointer;
+  transition: all 0.5s ease;
+  color: gray;
+}
+footer > small:hover {
+  color: white;
+}

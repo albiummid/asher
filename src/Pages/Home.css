@@ -1,0 +1,21 @@
+.home_container {
+  background-image: url(../images/user/bg/5fe5cd367fa4b7_30328510.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.container {
+  padding-top: 20vh;
+  background-image: url(../images/user/bg/wave.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+.card_container {
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  margin: 0 auto;
+}
