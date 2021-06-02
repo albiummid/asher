@@ -57,7 +57,7 @@ const Home = () => {
                 <Header />
                 <div className="card_container">
                     {
-                        linkData.map((data, index) => <LinkCard data={data} />)
+                        linkData.map((data, index) => <LinkCard id={index + 1} key={index} data={data} />)
                     }
                 </div>
                 <Footer />

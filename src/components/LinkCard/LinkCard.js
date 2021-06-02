@@ -1,10 +1,11 @@
 import React from 'react';
 import arrow from '../../images/link-button-arrow.svg'
 import './LinkCard.css'
-const LinkCard = ({ data }) => {
+const LinkCard = ({ data, id }) => {
     const { title, link, icon, color } = data;
+    console.log(id)
     return (
-        <div className='link_card'>
+        <div className={id === 1 ? 'link_card max' : 'link_card '} >
             <div className='beacon' style={{ backgroundColor: color }}>
 
             </div>
