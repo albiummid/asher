@@ -33,7 +33,9 @@
   align-items: center;
 }
 .social_links {
+  width: 40%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 5px;
